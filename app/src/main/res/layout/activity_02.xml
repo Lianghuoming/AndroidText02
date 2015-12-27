@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.liang.com.androidtext02.Activity02">
+
+
+    <app.liang.com.androidtext02.TopBar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        app:leftBackground="#00A1D6"
+        app:leftText="back"
+        app:leftTextColor="#ffffff"
+
+        app:rightBackground="#00A1D6"
+        app:rightText="right"
+        app:rightTextColor="#ffffff"
+
+        app:topTitle="自定义标题栏"
+        app:topTitleTextColor="#ffffff"
+        app:topTitleTextSize="20dp"
+        >
+
+        </app.liang.com.androidtext02.TopBar>
+
+</LinearLayout>
